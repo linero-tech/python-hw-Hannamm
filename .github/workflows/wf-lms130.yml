@@ -1,0 +1,80 @@
+name: Module 104
+
+on:
+  push:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  tests:
+    name: Task Testing
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Checkout repo with tests
+        uses: actions/checkout@master
+        with:
+          repository: linerotechab/python-hw-results
+          token: ${{ secrets.my_pat }}
+          path: ./python-hw-results
+
+      - name: Move helper files
+        run: |
+          cp -r ./python-hw-results/tests/custom_assertions.py ./tests
+          cp -r ./python-hw-results/tests/module_loader.py ./tests
+
+      - name: Move test files
+        run: |
+          cp -r ./python-hw-results/tests/lms130 ./tests
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: Upgrade pip, wheel
+        run: python -m pip install --upgrade pip wheel
+
+      - name: Install dependencies
+        run: pip install pytest
+
+      - name: Test LMS 130
+        run: python -m pytest tests/lms130
+
+      - name: Retrieve Badge Title
+        if: always()
+        run: |
+          if [ -f "$PWD/badge.txt" ];
+          then
+
+          echo "badgeTitle=$(head -n 1 $PWD/badge.txt)" >> $GITHUB_ENV
+          else
+
+          echo "badgeTitle=0" >> $GITHUB_ENV
+          fi
+
+      - name: Retrieve Badge Color
+        if: always()
+        run: |
+          if [ -f "$PWD/badge.txt" ];
+          then
+
+          echo "badgeColor=$(tail -n 1 $PWD/badge.txt )" >> $GITHUB_ENV
+          else
+
+          echo "badgeColor=D53644" >> $GITHUB_ENV
+          fi
+
+      - name: Create Badge
+        if: always()
+        uses: RubbaBoy/BYOB@v1.3.0
+        with:
+          NAME: module_130
+          LABEL: 'Module 104'
+          ICON: 'github'
+          STATUS: ${{ env.badgeTitle }}% Completed
+          COLOR: ${{ env.badgeColor }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,417 @@
+{
+	"sourcePath": "src",
+	"assignmentWindow": {
+		"autoOpen": true,
+		"isAvailable": true
+	},
+	"chapters": [
+		{
+			"name": "lms126",
+			"presentation": {
+				"title": "Module 101",
+				"subtitle": "LMS 126"
+			},
+			"assignments": [
+				{
+					"filename": "task1.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_126/homework/task1/"
+				},
+				{
+					"filename": "task2.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_126/homework/task2/"
+				},
+				{
+					"filename": "task3.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_126/homework/task3/"
+				},
+				{
+					"filename": "task4.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_126/homework/task4/"
+				},
+				{
+					"filename": "task5.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_126/homework/task5/"
+				},
+				{
+					"filename": "task6.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_126/homework/task6/"
+				},
+				{
+					"filename": "task7.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_126/homework/task7/"
+				},
+				{
+					"filename": "task8.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_126/homework/task8/"
+				},
+				{
+					"filename": "task9.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_126/homework/task9/"
+				},
+				{
+					"filename": "task10.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_126/homework/task10/"
+				},
+				{
+					"filename": "task11.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_126/homework/task11/"
+				}
+			]
+		},
+		{
+			"name": "lms127",
+			"presentation": {
+				"title": "Module 102",
+				"subtitle": "LMS 127"
+			},
+			"assignments": [
+				{
+					"filename": "task1.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_127/homework/task1/"
+				},
+				{
+					"filename": "task2.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_127/homework/task2/"
+				},
+				{
+					"filename": "task3.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_127/homework/task3/"
+				},
+				{
+					"filename": "task4.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_127/homework/task4/"
+				},
+				{
+					"filename": "task5.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_127/homework/task5/"
+				},
+				{
+					"filename": "task6.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_127/homework/task6/"
+				},
+				{
+					"filename": "task7.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_127/homework/task7/"
+				},
+				{
+					"filename": "task8.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_127/homework/task8/"
+				},
+				{
+					"filename": "task9.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_127/homework/task9/"
+				},
+				{
+					"filename": "task10.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_127/homework/task10/"
+				}
+			]
+		},
+		{
+			"name": "lms129",
+			"presentation": {
+				"title": "Module 103",
+				"subtitle": "LMS 129"
+			},
+			"assignments": [
+				{
+					"filename": "task1.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_129/homework/task1/"
+				},
+				{
+					"filename": "task2.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_129/homework/task2/"
+				},
+				{
+					"filename": "task3.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_129/homework/task3/"
+				},
+				{
+					"filename": "task4.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_129/homework/task4/"
+				},
+				{
+					"filename": "task5.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_129/homework/task5/"
+				},
+				{
+					"filename": "task6.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_129/homework/task6/"
+				},
+				{
+					"filename": "task7.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_129/homework/task7/"
+				},
+				{
+					"filename": "task8.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_129/homework/task8/"
+				},
+				{
+					"filename": "task9.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_129/homework/task9/"
+				},
+				{
+					"filename": "task10.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_129/homework/task10/"
+				}
+			]
+		},
+		{
+			"name": "lms130",
+			"presentation": {
+				"title": "Module 104",
+				"subtitle": "LMS 130"
+			},
+			"assignments": [
+				{
+					"filename": "task1.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task1/"
+				},
+				{
+					"filename": "task2.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task2/"
+				},
+				{
+					"filename": "task3.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task3/"
+				},
+				{
+					"filename": "task4.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task4/"
+				},
+				{
+					"filename": "task5.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task5/"
+				},
+				{
+					"filename": "task6.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task6/"
+				},
+				{
+					"filename": "task7.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task7/"
+				},
+				{
+					"filename": "task8.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task8/"
+				},
+				{
+					"filename": "task9.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task9/"
+				},
+				{
+					"filename": "task10.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task10/"
+				},
+				{
+					"filename": "task11.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task11/"
+				},
+				{
+					"filename": "task12.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task12/"
+				},
+				{
+					"filename": "task13.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_130/homework/task13/"
+				}
+			]
+		},
+		{
+			"name": "lms131",
+			"presentation": {
+				"title": "Module 105",
+				"subtitle": "LMS 131"
+			},
+			"assignments": [
+				{
+					"filename": "task1.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task1/"
+				},
+				{
+					"filename": "task2.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task2/"
+				},
+				{
+					"filename": "task3.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task3/"
+				},
+				{
+					"filename": "task4.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task4/"
+				},
+				{
+					"filename": "task5.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task5/"
+				},
+				{
+					"filename": "task6.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task6/"
+				},
+				{
+					"filename": "task7.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task7/"
+				},
+				{
+					"filename": "task8.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task8/"
+				},
+				{
+					"filename": "task9.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task9/"
+				},
+				{
+					"filename": "task10.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task10/"
+				},
+				{
+					"filename": "task11.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task11/"
+				},
+				{
+					"filename": "task12.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task12/"
+				},
+				{
+					"filename": "task13.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task13/"
+				},
+				{
+					"filename": "task14.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task14/"
+				},
+				{
+					"filename": "task15.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_131/homework/task15/"
+				}
+			]
+		},
+		{
+			"name": "lms132",
+			"presentation": {
+				"title": "Module 106",
+				"subtitle": "LMS 132"
+			},
+			"assignments": [
+				{
+					"filename": "task1.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_132/homework/task1/"
+				},
+				{
+					"filename": "task2.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_132/homework/task2/"
+				},
+				{
+					"filename": "task3.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_132/homework/task3/"
+				},
+				{
+					"filename": "task4.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_132/homework/task4/"
+				},
+				{
+					"filename": "task5.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_132/homework/task5/"
+				},
+				{
+					"filename": "task6.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_132/homework/task6/"
+				},
+				{
+					"filename": "task7.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_132/homework/task7/"
+				},
+				{
+					"filename": "task8.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_132/homework/task8/"
+				},
+				{
+					"filename": "task9.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_132/homework/task9/"
+				},
+				{
+					"filename": "task10.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_132/homework/task10/"
+				}
+			]
+		},
+		{
+			"name": "lms133",
+			"presentation": {
+				"title": "Module 107",
+				"subtitle": "LMS 133"
+			},
+			"assignments": [
+				{
+					"filename": "task1.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_133/homework/task1/"
+				},
+				{
+					"filename": "task2.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_133/homework/task2/"
+				},
+				{
+					"filename": "task3.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_133/homework/task3/"
+				},
+				{
+					"filename": "task4.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_133/homework/task4/"
+				},
+				{
+					"filename": "task5.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_133/homework/task5/"
+				},
+				{
+					"filename": "task6.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_133/homework/task6/"
+				},
+				{
+					"filename": "task7.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_133/homework/task7/"
+				},
+				{
+					"filename": "task8.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_133/homework/task8/"
+				},
+				{
+					"filename": "task9.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_133/homework/task9/"
+				},
+				{
+					"filename": "task10.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_133/homework/task10/"
+				}
+			]
+		},
+		{
+			"name": "lms135",
+			"presentation": {
+				"title": "Module 108",
+				"subtitle": "LMS 135"
+			},
+			"assignments": [
+				{
+					"filename": "task1.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_135/homework/task1/"
+				},
+				{
+					"filename": "task2.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_135/homework/task2/"
+				},
+				{
+					"filename": "task3.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_135/homework/task3/"
+				},
+				{
+					"filename": "task4.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_135/homework/task4/"
+				},
+				{
+					"filename": "task5.py",
+					"descriptionUrl": "https://linerotech-hw.netlify.app/lms_135/homework/task5/"
+				}
+			]
+		}
+	]
+}
