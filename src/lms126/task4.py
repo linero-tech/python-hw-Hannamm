@@ -2,4 +2,9 @@ from to_do import TODO
 
 
 def task4():
-    return TODO("Erase this line and write your solution")
+    return """
+               If X is greater than Y
+               Output X
+               Or if Y is greater than X
+               Output Y 
+    """
