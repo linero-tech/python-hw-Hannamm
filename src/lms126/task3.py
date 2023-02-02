@@ -2,4 +2,9 @@ from to_do import TODO
 
 
 def task3():
-    return TODO("Erase this line and write your solution")
+    return """
+           Provide Base of the triangle
+           Provide Height of the triangle
+           Calculate Area of the triangle
+           Output Area of the triangle
+        """
