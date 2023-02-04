@@ -2,4 +2,10 @@ from to_do import TODO
 
 
 def task7():
-    return TODO("Erase this line and write your solution")
+    return """
+                       For X from 1 up to 100 
+                           If X is divided by 2 without remainder 
+                           Then Output X
+                           Else do nothing
+                       
+            """
