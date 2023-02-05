@@ -2,4 +2,10 @@ from to_do import TODO
 
 
 def task2():
-    TODO("Erase this line and write your solution")
+
+              name = "Hanna"
+              country = "Ethiopia"
+              month = "August"
+              return ("Hello " + name + ", you are from " + country + " and you were born in " + month )
+
+print(task2())
