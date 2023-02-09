@@ -1,8 +1,9 @@
 from to_do import TODO
 
+
 def task1():
-    print("Country: Ethiopia")
-    print("Capital: Addis Ababa")
-    print("Currency: ETB")
+    print("Country: Ethiopia\nCapital: Addis Ababa\nCurrency: ETB")
+
+
 if __name__ == "__main__":
     task1()
