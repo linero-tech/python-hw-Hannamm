@@ -1,8 +1,12 @@
-from to_do import TODO
+# from to_do import TODO
 
 
 def task1():
-    print("Country: Ethiopia\nCapital: Addis Ababa\nCurrency: ETB")
+
+    country = "Ethiopia"
+    capital = "Addis Ababa"
+    currency = "ETB"
+    print(f"Country: {country}\nCapital: {capital}\nCurrency: {currency}")
 
 
 if __name__ == "__main__":
