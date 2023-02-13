@@ -1,7 +1,7 @@
-from to_do import TODO
-
-
 def task4(base, height):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    result = 1 / 2 * base * height
+    return result
+
+
+if __name__ == "__main__":
+    print("result is", task4(5.0,10.0))
