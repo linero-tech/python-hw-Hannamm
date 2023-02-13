@@ -1,7 +1,7 @@
-from to_do import TODO
-
-
 def task3(radius):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    pi = 3.14
+    result = 2 * pi * radius
+    return result
+
+if __name__ == "__main__":
+    print(f"result is", task3(2.0))
