@@ -3,11 +3,12 @@ def task1(a, b):
     result = 0
     if a < b:
         result = sum(range(a, b+1))
-        return result
+    return result
 
 
 if __name__ == "__main__":
     print("result is", task1(1, 5))
+
 
 def task_2(a, b):
     result = 0
