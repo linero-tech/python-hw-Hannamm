@@ -1,7 +1,17 @@
-from to_do import TODO
-
 
 def task2(number):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+
+    if number > 1:
+        for i in range(2, number):
+            if (number % i) == 0:
+                result = False
+                break
+        else:
+         result = True
+    else:
+        result = False
+    return result
+
+
+if __name__ == "__main__":
+    print("result  is ", task2(5))
