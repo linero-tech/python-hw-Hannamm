@@ -1,7 +1,10 @@
-from to_do import TODO
-
 
 def task3(number):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    result = 1
+    for i in range(1, number+1):
+        result *= i
+    return result
+
+
+if __name__ == "__main__":
+    print("result  is ", task3(5))
