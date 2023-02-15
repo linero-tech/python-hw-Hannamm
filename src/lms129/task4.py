@@ -1,7 +1,11 @@
-from to_do import TODO
-
-
 def task4():
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    result = 0
+    for i in range(1, 1001):
+        if i % 9 == 0:
+            result += i
+    return result
+
+
+if __name__ == "__main__":
+    print("result is ", task4())
+
