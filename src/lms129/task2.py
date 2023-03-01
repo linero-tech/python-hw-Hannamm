@@ -1,15 +1,12 @@
 def task2(number):
-    result = False
-
+    result = True
     if number > 1:
         for i in range(2, number):
             if (number % i) == 0:
                 result = False
                 break
-            else:
-                result = True
 
-        return result
+    return result
 
 
 # A prime number is as a positive integer >=1
