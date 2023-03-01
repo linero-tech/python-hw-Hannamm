@@ -1,25 +1,25 @@
 def task10(password):
     import re
 
-    result = "The password is Valid"
+    result = f"The password '{password}' is valid but you indicated otherwise."
 
     if len(password) < 6:
-        result = "The password is invalid: It has less than 6 characters."
+        result = f"The password '{password}' is invalid: It has less than 6 characters."
 
     if len(password) > 10:
-        result = "The password is invalid: Password must be at most 10 characters long. "
+        result = f"The password '{password}' is invalid: It has more than 10 characters"
 
     if not re.search("[a-z]", password):
-        result = "The password is invalid: Password must contain at least one lowercase letter. "
+        result = f"The password '{password}' is invalid: It is missing at least one lowercase character."
 
     if not re.search("[A-Z]", password):
-        result = "The password is invalid: Password must contain at least one uppercase letter. "
+        result = f"The password '{password}' is invalid: It is missing at least one uppercase character."
 
     if not re.search("[0-9]", password):
-        result = "The password is invalid: Password must contain at least one digit. "
+        result = f"The password '{password}' is invalid: It is missing at least one number."
 
     if not re.search("[$#@]", password):
-        result = "The password is invalid: Password must contain at least one of the following characters: $, #, @. "
+        result = f"The password '{password}' is invalid: It is missing at least one of the special characters"
 
     return result
 
