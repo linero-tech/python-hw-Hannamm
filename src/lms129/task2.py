@@ -1,9 +1,9 @@
 def task2(number):
     result = True
-    if number > 1:
-        for i in range(2, number):
-            if (number % i) == 0:
-                result = False
+
+    for i in range(2, number):
+        if (number % i) == 0:
+            result = False
 
     return result
 
