@@ -2,26 +2,11 @@ import re
 
 
 def task10(password):
-    result = True
-
-    if len(password) < 6 or len(password) > 10:
-        result = False
-    elif not re.search("[a-z]", password):
-        result = False
-
-    elif not re.search("[0-9]", password):
-        result = False
-
-    elif not re.search("[A-Z]", password):
-        result = False
-
-    elif not re.search("[$#@]", password):
-        result = False
-
-    if result:
-        result = "Valid Password"
+    pattern = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$#@])[A-Za-z\d$#@]{6,10}$"
+    if re.match(pattern, password):
+        result = "Valid password"
     else:
-        result = "Not Valid Password"
+        result = "Invalid password"
 
     return result
 
