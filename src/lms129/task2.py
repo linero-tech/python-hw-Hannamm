@@ -13,7 +13,7 @@ def task2(number):
 # with only two factors: itself and one
 if __name__ == "__main__":
     print("result  is ", task2(5))  # True
-    print("result  is ", task2(3))  # True
-    print("result  is ", task2(7))  # True
-    print("result  is ", task2(4))  # False
-    print("result  is ", task2(26))  # False
+    # print("result  is ", task2(3))  # True
+    # print("result  is ", task2(7))  # True
+    # print("result  is ", task2(4))  # False
+    # print("result  is ", task2(26))  # False
