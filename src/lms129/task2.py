@@ -1,10 +1,14 @@
 def task2(number):
-    result = True
 
-    for i in range(2, number):
-        if (number % i) == 0:
-            result = False
-
+    if number > 1:
+        for i in range(2, number):
+            if (number % i) == 0:
+                result = False
+                break
+        else:
+            result = True
+    else:
+        result = False
     return result
 
 
