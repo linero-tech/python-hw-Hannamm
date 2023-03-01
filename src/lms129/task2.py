@@ -8,8 +8,7 @@ def task2(number):
                 break
         else:
          result = True
-    else:
-        result = False
+    
     return result
 
 
