@@ -1,26 +1,20 @@
+import re
+
+
 def task10(password):
-    import re
 
-    result = f"The password '{password}' is valid but you indicated otherwise."
+    # Define the regular expression pattern for password validation
+    pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$#@])[A-Za-z\d$#@]{6,10}$"
 
-    if len(password) < 6:
-        result = f"The password '{password}' is invalid: It has less than 6 characters."
+    # Compile the pattern into a regular expression object
+    regex = re.compile(pattern)
 
-    if len(password) > 10:
-        result = f"The password '{password}' is invalid: It has more than 10 characters"
+    # Check if the password matches the regular expression pattern
+    if regex.match(password):
+        result = True
 
-    if not re.search("[a-z]", password):
-        result = f"The password '{password}' is invalid: It is missing at least one lowercase character."
-
-    if not re.search("[A-Z]", password):
-        result = f"The password '{password}' is invalid: It is missing at least one uppercase character."
-
-    if not re.search("[0-9]", password):
-        result = f"The password '{password}' is invalid: It is missing at least one number."
-
-    if not re.search("[$#@]", password):
-        result = f"The password '{password}' is invalid: It is missing at least one of the special characters"
-
+    else:
+        result = False
     return result
 
 
