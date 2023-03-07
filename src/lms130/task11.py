@@ -2,19 +2,19 @@ from to_do import TODO
 
 
 def task11_1(guests):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    result = len(guests)
+
+    return result
 
 
 def task11_2(guests, condition):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    condition = "-K"
+    result = [guest for guest in guests if guest.endswith(condition)]
+
+    return result
 
 
 if __name__ == "__main__":
-
     # Change the situation to either "-V", "-A", or "-K" to test your code under different situation
     situation = "-V"
     guest_list = [
@@ -31,3 +31,6 @@ if __name__ == "__main__":
     print(
         f"The attendees with condition '{situation}' are {task11_2(guest_list, situation)}"
     )
+    print("result is", task11_1(["Lia-K", "Mar-A", "Luz-K", "Ulf-V"]))
+    print("result is", task11_2(["Lia-K", "Mar-A", "Luz-K", "Ulf-V"], "-V"))
+    print("result is", task11_2(["Lia-K", "Mar-A", "Luz-K", "Ulf-V"], "-V"))
