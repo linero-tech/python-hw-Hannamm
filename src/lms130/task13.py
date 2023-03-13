@@ -1,37 +1,24 @@
-from to_do import TODO
-
-
 def task13_1(customers):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    return list(set(customers))
 
 
 def task13_2(customers):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    from collections import Counter
+
+    return [email for email, count in Counter(customers).items() if count > 1]
 
 
 def task13_3(customers):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    return list(set([email.split('@')[1] for email in customers]))
 
 
 if __name__ == "__main__":
     customer_list = [
-        "tgundrey1l@prlog.org",
-        "bgrix1u@apache.org",
-        "mbreakspear1v@wordpress.com",
-        "cdalli1w@ft.com",
-        "rclayborn1x@mtv.com",
-        "rclayborn1x@mtv.com",
-        "jchidlow1y@nasa.gov",
-        "jchidlow1y@nasa.gov",
-        "kovell1z@washingtonpost.com",
-        "kovell1z@washingtonpost.com",
-        "kovell1z@washingtonpost.com",
+        "mary@tv.com",
+        "john@nas.gov",
+        "john@nas.gov",
+        "ema@post.com",
+        "ema@post.com"
     ]
 
     print(f"The customers who purchased from your product: {task13_1(customer_list)}")
