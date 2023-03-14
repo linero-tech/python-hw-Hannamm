@@ -9,7 +9,7 @@ def task13_2(customers):
 
 
 def task13_3(customers):
-    return list(set([email.split('@')[1] for email in customers]))
+    return set([customer.split('@')[1].split('.')[0] for customer in customers])
 
 
 if __name__ == "__main__":
